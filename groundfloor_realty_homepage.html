@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>GroundFloor Realty Capital</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; padding: 0;
+    background: #f5f8fa;
+    color: #0a1f44;
+  }
+  header {
+    background: #0a1f44;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .logo {
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+  }
+  nav a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .hero {
+    background: linear-gradient(135deg, #2e7d32 0%, #0a1f44 100%);
+    color: white;
+    padding: 80px 40px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  .hero p {
+    font-size: 1.3rem;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+  }
+  .btn-primary {
+    background: #ffffff;
+    color: #2e7d32;
+    font-weight: 700;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+    text-decoration: none;
+  }
+  .btn-primary:hover {
+    background: #c8e6c9;
+  }
+  .section {
+    padding: 60px 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  h2 {
+    color: #0a1f44;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    border-bottom: 3px solid #2e7d32;
+    display: inline-block;
+    padding-bottom: 6px;
+  }
+  .about p, .how-it-works p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    max-width: 850px;
+    margin-bottom: 20px;
+  }
+  .how-steps {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .step {
+    flex: 1 1 200px;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(46,125,50,0.1);
+  }
+  .step h3 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+  }
+  .properties {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .property {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 320px;
+    box-shadow: 0 4px 10px rgba(10,31,68,0.1);
+  }
+  .property h4 {
+    color: #0a1f44;
+    margin-bottom: 12px;
+  }
+  .property p {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  .property .roi {
+    font-weight: 700;
+    color: #2e7d32;
+  }
+  footer {
+    background: #0a1f44;
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 0.9rem;
+  }
+  footer a {
+    color: #c8e6c9;
+    text-decoration: none;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  .contact-info {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #2e7d32;
+  }
+  @media (max-width: 768px) {
+    .how-steps, .properties {
+      flex-direction: column;
+      align-items: center;
+    }
+    nav a {
+      margin-left: 15px;
+      font-size: 0.9rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">GroundFloor Realty Capital</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#how">How It Works</a>
+    <a href="#properties">Properties</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Real Estate Investing. Crypto Simplicity. SEC Confidence.</h1>
+  <p>Discover vetted real estate opportunities with projected returns up to 10x — fully SEC-compliant and funded exclusively through cryptocurrency.</p>
+  <a href="#how" class="btn-primary">Start Investing</a>
+</section>
+
+<section id="about" class="section about">
+  <h2>About Us</h2>
+  <p>GroundFloor Realty Capital is a U.S.-registered real estate investment platform combining institutional-grade property deals with blockchain-enabled crypto funding. We provide accredited investors with access to tokenized real estate projects, ensuring transparency, security, and compliance.</p>
+  <p><strong>SEC CRD#:</strong> 927483 | Regulation D Rule 506(c) Offering</p>
+</section>
+
+<section id="how" class="section how-it-works">
+  <h2>How It Works</h2>
+  <div class="how-steps">
+    <div class="step">
+      <h3>1. Create Account & Verify Identity</h3>
+      <p>Sign up and complete KYC/AML verification to ensure regulatory compliance and protect our investors.</p>
+    </div>
+    <div class="step">
+      <h3>2. Fund with Crypto</h3>
+      <p>Invest using Bitcoin, Ethereum, USDT, or USDC. All transactions are secured on-chain for transparency.</p>
+    </div>
+    <div class="step">
+      <h3>3. Select a Property Project</h3>
+      <p>Browse our curated real estate investment opportunities, each fully vetted and documented.</p>
+    </div>
+    <div class="step">
+      <h3>4. Invest & Track Returns</h3>
+      <p>Receive tokenized shares and monitor your portfolio performance anytime through our secure dashboard.</p>
+    </div>
+  </div>
+</section>
+
+<section id="properties" class="section properties">
+  <h2>Featured Properties</h2>
+
+  <div class="property">
+    <h4>Crestline Multi-Family Units – Austin, TX</h4>
+    <p><strong>ROI Target:</strong> 2.7x over 4 years</p>
+    <p><strong>Minimum Investment:</strong> 0.5 ETH</p>
+    <p><strong>Status:</strong> Fully Permitted</p>
+  </div>
+
+  <div class="property">
+    <h4>Harborview Commercial Plaza – Miami, FL</h4>
+    <p><strong>ROI Target:</strong> 3.2x over 5 years</p>
+    <p><strong>Minimum Investment:</strong> 1 BTC</p>
+    <p><strong>Status:</strong> Under Construction</p>
+  </div>
+
+  <div class="property">
+    <h4>Sunset Short-Term Rentals – Los Angeles, CA</h4>
+    <p><strong>ROI Target:</strong> 2.1x over 3 years</p>
+    <p><strong>Minimum Investment:</strong> 1000 USDT</p>
+    <p><strong>Status:</strong> Operational</p>
+  </div>
+</section>
+
+<section id="contact" class="section contact-info">
+  <h2>Contact & Support</h2>
+  <p>For questions or assistance, email our help line:</p>
+  <p><strong><a href="mailto:Ground.floor.investments.us@gmail.com">Ground.floor.investments.us@gmail.com</a></strong></p>
+</section>
+
+<footer>
+  <p>© 2025 GroundFloor Realty Capital. All rights reserved.</p>
+  <p>GroundFloor Realty Capital operates under SEC Regulation D Rule 506(c). Investments are open to accredited investors only. Crypto payments accepted. All investments carry risk and past performance is not indicative of future results.</p>
+</footer>
+
+</body>
+</html>
